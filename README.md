@@ -34,7 +34,7 @@ def search_xlsx(path, regex):
                     #printing exact location of founded regex to the console
                     if regex.search(text):
                         print(
-                            f"📊 {path} | arkusz '{sheet.title}' "
+                            f"{path} | arkusz '{sheet.title}' "
                             f"| komórka {r}:{c}: {text}"
                         )
     except Exception as e:
