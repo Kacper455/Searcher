@@ -1,0 +1,2 @@
+# Searcher
+Simple searching scrypt
